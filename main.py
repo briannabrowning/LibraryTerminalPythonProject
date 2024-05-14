@@ -75,12 +75,12 @@ class Movie(Media):
           \nDirector(s): {', '.join(self.directors)}\nStatus: {self.status}\n"
 
 
-def display_media(media_list):
-    if media_list is None:
-        print("No media found.")
-        return
+def display_media(catalog):
+    # if catalog is None:
+    #     print("No media found.")
+    #     return
 
-    for media in media_list:
+    for media in catalog:
         print(media)
 
 
