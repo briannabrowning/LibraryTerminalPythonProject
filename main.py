@@ -76,10 +76,6 @@ class Movie(Media):
 
 
 def display_media(catalog):
-    # if catalog is None:
-    #     print("No media found.")
-    #     return
-
     for media in catalog:
         print(media)
 
